@@ -1,0 +1,23 @@
+{
+    "name": "passierschein-a38/yii2-lightbox",
+    "description": "Recovery for yeesoft lightbox widget for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yeesoft", "yii2", "module", "lightbox"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Taras Makitra",
+            "email": "makitrataras@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "bower-asset/lightbox2": "~2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "yeesoft\\lightbox\\": ""
+        }
+    }
+}
+
