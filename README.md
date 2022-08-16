@@ -2,7 +2,7 @@
 
 ## Info about this repo
 
-I created this repo as hotfix for my project, because the original repo yeesoft/yii2-lightbox was gone. I just copied files from the vendor folder to this repo.
+I created this repo as hotfix for my project, because the original repo yeesoft/yii2-lightbox was gone. I just copied files from the vendor folder to this repo. Existing code should continue to work because I did not changed the namespaces within the files. I also created the exact same release 0.1.0 on github.
 Please note that there is no package published on packigst. You have to add the following to your composer.json into the "repositories" section
 
 ```  
@@ -18,7 +18,7 @@ Please note that there is no package published on packigst. You have to add the 
     ],
     "require": {
         ...
-        "passierschein-a38/yii2-lightbox": "dev-main"
+        "passierschein-a38/yii2-lightbox":  "~0.1.0"
         ...
     },
 ```
