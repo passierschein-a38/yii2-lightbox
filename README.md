@@ -1,5 +1,30 @@
 # yii2-lightbox
 
+## Info about this repo
+
+I created this repo as hotfix for my project, because the original repo yeesoft/yii2-lightbox was gone. I just copied files from the vendor folder to this repo.
+Please note that there is no package published on packigst. You have to add the following to your composer.json into the "repositories" section
+
+```  
+ "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        {
+            "url": "https://github.com/passierschein-a38/yii2-lightbox.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        ...
+        "passierschein-a38/yii2-lightbox": "dev-main"
+        ...
+    },
+```
+
+:fire: Original content starting from here :fire:
+
 ## Lightbox Widget for Yii 2
 
 This module is a wrapper for Lightbox2
